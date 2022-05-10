@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap");
+$MainColor: #2196f3;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing-: border-box;
+  -moz-box-sizing-: border-box;
+  -ms-box-sizing-: border-box;
+  box-sizing: border-box;
+  outline: none;
+  user-select: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+#indector {
+  background-color: #fff;
+  height: 5px;
+  width: 0;
+  position: fixed;
+  z-index: 1099;
+  top: 0;
+  transition: all 0.3s ease-in;
+}
+// !Start Style Portfolio
+
+// ?Start Navbar
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: $MainColor;
+  background-image: url("../img/B1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+  }
+  img {
+    margin-left: auto;
+  }
+  .navbar-toggler {
+    border-color: transparent !important;
+    outline: none;
+    .icon-meun {
+      position: relative;
+      margin: 20px auto;
+      cursor: pointer;
+      width: 20px;
+      height: 14px;
+      span {
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background-color: #fff;
+        transition: all 0.3s ease;
+        &:first-child {
+          top: 0;
+        }
+        &:nth-child(2) {
+          top: 6px;
+        }
+        &:last-child {
+          top: 12px;
+        }
+      }
+    }
+  }
+  .nav-item.active a,
+  a.active {
+    color: #fff !important;
+  }
+  .nav-link {
+    color: #2196f3 !important;
+    font-weight: bolder !important;
+    &:hover {
+      color: #fff !important;
+    }
+  }
+}
+//TODO End Navbar
+
+//? Start About
+
+#About {
+  .title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-weight: bold;
+      font-size: 27px;
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 22px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 2px;
+    }
+    button {
+      padding: 10px;
+      background-color: $MainColor;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+    }
+  }
+}
+
+//TODO End About
