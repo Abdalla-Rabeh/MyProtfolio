@@ -134,9 +134,10 @@ nav .nav-link:hover {
 }
 
 #About .title p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 #About .title button {
@@ -145,5 +146,38 @@ nav .nav-link:hover {
   color: #fff;
   border: none;
   font-weight: bold;
+}
+
+#About h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  line-height: 30px;
+  letter-spacing: 10px;
+  border-radius: 75px;
+  border: 92px dotted #2196f3;
+}
+
+#About .list ul {
+  list-style: none;
+}
+
+#About .list li {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 22px;
+  margin: 10px;
+}
+
+#About .list li a {
+  color: #fff;
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */

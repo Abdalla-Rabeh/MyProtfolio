@@ -105,9 +105,10 @@ nav {
       font-size: 22px;
     }
     p {
-      font-size: 20px;
+      font-size: 18px;
       line-height: 30px;
       letter-spacing: 2px;
+      text-align:center;
     }
     button {
       padding: 10px;
@@ -115,6 +116,36 @@ nav {
       color: #fff;
       border: none;
       font-weight: bold;
+    }
+  }
+  h3{
+    font-size:30px;
+    font-weight: bolder;
+    // border: 2px dashed $MainColor;
+    padding: 10px;
+    width:fit-content;
+    margin: auto;
+    line-height: 30px;
+    letter-spacing: 10px;
+    border-radius: 75px;
+    border : 92px dotted $MainColor;
+  }
+  .list{
+    ul{
+      list-style: none;
+    }
+    li{
+      text-align: center;
+      font-weight: bold;
+      padding: 20px;
+      background-color: $MainColor;
+      color: #fff;
+      font-size: 22px;
+      margin: 10px;
+      a{
+        color:#fff;
+        padding:20px;
+      }
     }
   }
 }
