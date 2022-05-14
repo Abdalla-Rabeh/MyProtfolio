@@ -147,3 +147,25 @@ nav {
 }
 
 //TODO End About
+
+
+// Footer
+footer{
+  background-color: $MainColor;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 10px;
+  ul{
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    i{
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    }
+  }
+}
+// Footer
